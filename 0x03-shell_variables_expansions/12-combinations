@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -en {a..n}{a..n}\\\n;echo -ne {p..z}{p..z}\\\n
+echo -ne {a..z}{a..z}\n | grep -v -e oo | tr -d [:space:]?
