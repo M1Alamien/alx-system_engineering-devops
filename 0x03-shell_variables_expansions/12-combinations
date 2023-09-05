@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'A-za-z' 'N-ZA-Mn-za-m'
+echo -en {a..n}{a..n}\\\n;echo -ne {p..z}{p..z}\\\n
